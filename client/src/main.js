@@ -14,7 +14,7 @@ import store from './store'
 
 import '@/icons' // icon
 import '@/permission' // permission control
-// import './mock' // simulation data generator
+import './mock' // simulation data generator
 
 import api from '@/api'
 
