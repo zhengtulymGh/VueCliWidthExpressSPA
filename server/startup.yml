@@ -1,0 +1,9 @@
+apps:
+  name: epower_fe
+  script: app.js
+  instances: 1
+  exec_mode: fork
+  log_date_format: 'YYYY-MM-DD HH:mm:ss'
+  error_file: ../logs/pm2_logs/error.log
+  out_file: ../logs/pm2_logs/out.log
+  pid_file: ../logs/pm2_logs/pid.log

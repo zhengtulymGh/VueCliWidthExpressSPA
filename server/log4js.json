@@ -1,0 +1,25 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "../logs/node/app.log",
+      "pattern": "-yyyy-MM-dd.log",
+      "alwaysIncludePattern": false,
+      "category": "app"
+    },
+    {
+      "type": "dateFile",
+      "filename": "../logs/c2node/http.log",
+      "pattern": "-yyyy-MM-dd.log",
+      "alwaysIncludePattern": false,
+      "category": "http"
+    },
+    {
+      "type": "dateFile",
+      "filename": "../logs/node2s/request.log",
+      "pattern": "-yyyy-MM-dd.log",
+      "alwaysIncludePattern": false,
+      "category": "request"
+    }
+  ]
+}

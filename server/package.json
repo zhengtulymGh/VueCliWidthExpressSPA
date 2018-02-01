@@ -1,0 +1,32 @@
+{
+  "name": "device_manage_admin_server",
+  "version": "1.0.0",
+  "description": "设备管理后台",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect app.js"
+  },
+  "author": "ayou",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "connect-redis": "^3.2.0",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "express-session": "^1.15.0",
+    "formidable": "^1.1.1",
+    "lodash": "^4.17.4",
+    "log4js": "^1.1.0",
+    "query-string": "^5.0.1",
+    "redis": "^2.6.5",
+    "request": "^2.79.0",
+    "when": "^3.7.7",
+    "ws": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
